@@ -10,7 +10,7 @@
 <script lang="ts">
   export default {
     name: 'Layout'
-  }
+  };
 </script>
 
 <style lang="scss" scoped>
@@ -19,7 +19,6 @@
     flex-direction: column;
     height: 100vh;
   }
-
   .content {
     overflow: auto;
     flex-grow: 1;

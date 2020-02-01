@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <p>Money.vue</p>
+    Money.vue
   </Layout>
 </template>
 
