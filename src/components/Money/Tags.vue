@@ -38,6 +38,7 @@
         this.$emit('update:dataSource',
           [...this.dataSource, name]);
       }
+      this.$emit('update:value', this.selectedTags)
     }
   }
 </script>
