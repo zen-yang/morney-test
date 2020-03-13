@@ -13,7 +13,6 @@
 </template>
 
 <script lang="ts">
-  import Vue from 'vue';
   import { Component } from 'vue-property-decorator';
   import { mixins } from 'vue-class-component';
   import TagHelper from '@/mixins/TagHelper';
@@ -37,6 +36,7 @@
       } else {
         this.selectedTags.push(tag);
       }
+      this.$emit('update:value', this.selectedTags);
     }
   }
 </script>
